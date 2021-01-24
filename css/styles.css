@@ -9,3 +9,8 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.card {
+  margin-bottom: 10px;
+}
