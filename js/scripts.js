@@ -1,6 +1,5 @@
 $(document).ready(function() {
-  $(".front").click(function() {
-    $(this).fadeToggle();
-    $(".back").fadeToggle();
+  $("div.card .front").click(function() {
+    $(this).next().fadeToggle("back");
   });
 });
